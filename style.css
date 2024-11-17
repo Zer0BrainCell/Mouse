@@ -1,0 +1,33 @@
+.main {
+    height: 500px;
+}
+
+@keyframes move {
+  from {
+    left: 0px
+  }  
+  to
+  {
+    left: 550px;
+  }
+}
+.item
+{
+    animation: move 4s infinite alternate;
+    position: absolute;
+    z-index: 1;
+}
+@keyframes moves {
+    from {
+      right: 0px
+    }  
+    to
+    {
+      right: 600px;
+    }
+  }
+.cheese
+{
+    animation: moves 4s infinite alternate;
+    position: absolute;
+}
